@@ -1,0 +1,14 @@
+[
+ {"q": "prépare un carrousel instagram pour annoncer la mise à jour", "doit": ["skill:content-principles|skill:marketing-video"], "jamais": ["skill:superpowers:systematic-debugging"]},
+ {"q": "le bouton de connexion ne répond plus quand je clique dessus", "doit": ["skill:superpowers:systematic-debugging"], "jamais": ["skill:logo-design"]},
+ {"q": "fais une maquette figma de l'écran d'accueil", "doit": ["mcp:figma"], "jamais": []},
+ {"q": "écris les tests avant de coder la fonction de paiement", "doit": ["skill:superpowers:test-driven-development"], "jamais": []},
+ {"q": "transforme ce pdf en texte", "doit": ["skill:anthropic-skills:pdf"], "jamais": []},
+ {"q": "ajoute une voix off à la vidéo", "doit": ["mcp:elevenlabs|skill:video-use"], "jamais": []},
+ {"q": "fais une présentation powerpoint de mon projet", "doit": ["skill:anthropic-skills:pptx"], "jamais": []},
+ {"q": "le swipe pour fermer la carte ne suit pas le doigt", "doit": ["skill:gestures"], "jamais": []},
+ {"q": "cherche dans mes mails la facture de netlify", "doit": ["mcp:gmail"], "jamais": []},
+ {"q": "planifie la refonte de l'onboarding avant de coder", "doit": ["skill:superpowers:brainstorming|skill:superpowers:writing-plans"], "jamais": []},
+ {"q": "rends cette page plus rapide à charger", "doit": ["skill:vercel-optimize|skill:animation-performance|skill:vercel-react-best-practices"], "jamais": []},
+ {"q": "programme une tâche qui vérifie le site tous les matins", "doit": ["skill:schedule|skill:loop"], "jamais": []}
+]

@@ -1,0 +1,8 @@
+{
+  "name": "skill-router",
+  "version": "0.1.0",
+  "description": "Picks the skills, plugins and connected MCP servers that fit each message, has the agent use them in the right order, and explains why in one line.",
+  "author": { "name": "Fripouilledu92" },
+  "license": "MIT",
+  "keywords": ["skills", "routing", "mcp", "hooks", "productivity"]
+}

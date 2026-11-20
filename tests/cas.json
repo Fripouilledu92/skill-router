@@ -1,0 +1,188 @@
+[
+ {
+  "q": "fais moi un site web pour mon app",
+  "doit": [
+   "skill:impeccable|skill:design-taste-frontend|skill:motionsites-web-builder",
+   "skill:unslop",
+   "skill:superpowers:brainstorming",
+   "skill:deploy-to-vercel"
+  ],
+  "jamais": [
+   "skill:agent-desktop",
+   "skill:remotion-saas"
+  ]
+ },
+ {
+  "q": "écris un script TikTok pour mon app",
+  "doit": [
+   "skill:marketing-video",
+   "skill:content-principles"
+  ],
+  "jamais": [
+   "skill:logo-design"
+  ]
+ },
+ {
+  "q": "j'ai un bug, l'app plante au lancement",
+  "doit": [
+   "skill:superpowers:systematic-debugging"
+  ],
+  "jamais": [
+   "skill:claude-mem:screenpipe"
+  ]
+ },
+ {
+  "q": "ajoute une animation quand on ouvre le menu",
+  "doit": [
+   "skill:animate|skill:charles-ux-animation"
+  ],
+  "jamais": [
+   "skill:agent-desktop",
+   "skill:agent-desktop-macos"
+  ]
+ },
+ {
+  "q": "résume ma réunion d'hier avec l'équipe",
+  "doit": [
+   "mcp:granola"
+  ],
+  "jamais": [
+   "skill:remotion-create"
+  ]
+ },
+ {
+  "q": "fais un montage vidéo de ce rush avec des sous-titres",
+  "doit": [
+   "skill:video-use"
+  ],
+  "jamais": [
+   "skill:agent-reach"
+  ]
+ },
+ {
+  "q": "lis cette page web et sors-moi les prix",
+  "doit": [
+   "skill:scrapling-official|mcp:claude-browser|skill:agent-reach"
+  ],
+  "jamais": [
+   "skill:impeccable",
+   "skill:design-taste-frontend"
+  ]
+ },
+ {
+  "q": "l'interface fait trop IA, rends-la plus propre",
+  "doit": [
+   "skill:unslop"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "crée un logo pour mon app",
+  "doit": [
+   "skill:logo-design"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "fais une vidéo animée de présentation de l'app avec Remotion",
+  "doit": [
+   "skill:remotion-best-practices|skill:remotion-create"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "trouve un bruitage de clic propre pour la vidéo",
+  "doit": [
+   "skill:earshot|mcp:earshot|skill:real-sound"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "écris un fichier swift pour l'écran réglages",
+  "doit": [
+   "skill:write-swift"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "crée un graphique des ventes par mois",
+  "doit": [
+   "skill:dataviz|mcp:easel"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "relis mon code avant que je pousse",
+  "doit": [
+   "skill:code-review|skill:superpowers:requesting-code-review"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "déploie le site sur vercel",
+  "doit": [
+   "skill:deploy-to-vercel"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "qu'est-ce qu'on avait décidé la dernière fois sur les prix ?",
+  "doit": [
+   "skill:claude-mem:mem-search|mcp:claude-mem"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "remplis ce document word avec les infos",
+  "doit": [
+   "skill:anthropic-skills:docx"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "regarde les erreurs en production de l'app",
+  "doit": [
+   "mcp:sentry"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "combien d'utilisateurs ont ouvert l'app cette semaine",
+  "doit": [
+   "mcp:posthog"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "lance l'app dans le simulateur iphone et vérifie l'écran",
+  "doit": [
+   "mcp:ios-simulator"
+  ],
+  "jamais": []
+ },
+ {
+  "q": "ok merci",
+  "doit": [],
+  "jamais": [
+   "*"
+  ]
+ },
+ {
+  "q": "quelle heure est-il à Tokyo ?",
+  "doit": [],
+  "jamais": [
+   "skill:impeccable",
+   "skill:remotion-create"
+  ]
+ },
+ {
+  "q": "crée une landing page pour mon app",
+  "doit": [
+   "skill:unslop",
+   "skill:impeccable|skill:design-taste-frontend|skill:motionsites-web-builder"
+  ],
+  "jamais": [
+   "skill:agent-desktop"
+  ]
+ }
+]

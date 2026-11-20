@@ -1,0 +1,11 @@
+{
+  "name": "skill-router",
+  "owner": { "name": "Fripouilledu92" },
+  "plugins": [
+    {
+      "name": "skill-router",
+      "source": "./",
+      "description": "Picks the skills, plugins and connected MCP servers that fit each message, in the right order, and explains why."
+    }
+  ]
+}
