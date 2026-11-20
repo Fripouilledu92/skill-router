@@ -1,15 +1,23 @@
+<p align="center"><img src=".claude-plugin/icon.png" width="96" alt="skill-router icon"></p>
+
 # skill-router
 
-**Your agent has 100+ skills, plugins and MCP servers. It uses three.** skill-router fixes that.
+**Your Claude Code agent has 100+ skills, plugins and MCP servers. It uses three.**
+skill-router picks the right ones for every message, hands them to Claude in the order a pro would use them,
+and Claude ends each answer with one line saying what each tool brought.
 
-On every message, it finds the tools that fit the request, hands them to Claude in the order a professional would
-use them, and Claude ends its answer with one line saying which tools it used and what each one brought.
+<p align="center"><img src="assets/demo.png" alt="skill-router choosing brainstorming, a design skill, unslop, break-ui and deploy for a landing page request"></p>
+<p align="center"><sub>Illustration: the exact list depends on the tools you have installed.</sub></p>
 
+## Install
+
+```bash
+claude plugin marketplace add Fripouilledu92/skill-router
+claude plugin install skill-router@skill-router
 ```
-You:    make me a website for my app
-Claude: …
-        Tools: impeccable (layout and type system) · design-taste-frontend (real photos, browser check) · deploy-to-vercel (went live)
-```
+
+Open a new Claude Code session. Your tools are classified once in the background, then every message is routed
+locally in about 0.1 s, with no model call.
 
 ## How it works
 
@@ -37,17 +45,10 @@ Claude: …
 | `/skills-off <name>` · `/skills-off on <name>` | Never propose a tool again / bring it back |
 | `/skills-sync` | Classify new tools now, including the ones only the agent can see (desktop app connectors) |
 
-## Install
+## Requirements
 
-```bash
-claude plugin marketplace add Fripouilledu92/skill-router
-claude plugin install skill-router@skill-router
-```
-
-Then start a new session. The first classification runs in the background (a few minutes for ~150 tools);
-until it is done, tools are matched on their raw descriptions.
-
-Requirements: Claude Code, Python 3.9+, the `claude` CLI on your PATH.
+Claude Code, Python 3.9+, the `claude` CLI on your PATH. The first classification of ~150 tools takes a few
+minutes in the background; until then tools are matched on their raw descriptions.
 
 ## Settings
 
