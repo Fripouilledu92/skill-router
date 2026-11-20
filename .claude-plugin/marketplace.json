@@ -1,6 +1,9 @@
 {
   "name": "skill-router",
-  "owner": { "name": "Fripouilledu92" },
+  "description": "skill-router: picks the right skills, plugins and MCP servers for every Claude Code message.",
+  "owner": {
+    "name": "Fripouilledu92"
+  },
   "plugins": [
     {
       "name": "skill-router",
